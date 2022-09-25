@@ -4,13 +4,8 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This app simply holds a list of numbers and displays a number prominently when tapped on. We have a master list of numbers and a detail view that displays a number when clicked. Just like the emails in the gmail app.
 
-A few resources to get you started if this is your first Flutter project:
+if we had the same exact layout in tablets, it would be a waste of space because the table space is large enough to hold those 2 screens.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+So for the app to be responsive, we display the master list and the detail page on the same screen for the screens with a width larger than 600dps.
